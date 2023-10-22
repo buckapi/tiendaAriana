@@ -1178,13 +1178,13 @@ button {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 20px;
-  color: #fff;
+  color: #e91e63;
   border: none;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   border-radius: 20px;
-  background-color: #c61a32;
+  background-color: #000;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease; }
@@ -1246,7 +1246,7 @@ button {
     background-color: #222;
     color: #fff; }
     .ps-btn:hover.ps-btn--black, .ps-btn:active.ps-btn--black, button.ps-btn:hover.ps-btn--black, button.ps-btn:active.ps-btn--black {
-      background-color: #c61a32; }
+      background-color: #e91e63; }
 
 .ps-btn--favorite {
   position: relative;
@@ -4133,7 +4133,7 @@ textarea.form-control {
     .ps-product .ps-product__content .ps-product__price {
       font-size: 1.4rem;
       font-weight: 400;
-      color: #222; }
+      color: #e91e63; }
       .ps-product .ps-product__content .ps-product__price del {
         margin-right: 5px;
         color: #777; }
@@ -5841,7 +5841,7 @@ textarea.form-control {
         transform: translate(-50%, -50%);
         font-size: 10px;
         font-style: normal;
-        color: #222; }
+        color: #e91e63; }
     .ps-cart__toggle > i {
       position: absolute;
       top: 50%;
@@ -6902,7 +6902,7 @@ textarea.form-control {
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: .2em;
-    color: #c0c0c0; }
+    color: #e91e63; }
 
 .ps-home-testimonials {
   padding: 10rem 0;
@@ -6962,8 +6962,10 @@ textarea.form-control {
     .ps-new-arrivals .ps-section__mobile {
       display: none; } }
   @media (max-width: 1199px) {
-    .ps-new-arrivals .ps-section__content {
-      display: none; } }
+    .ps-new-arrivals .ps-section__content 
+/*    { display: none; } */
+    
+    }
   @media (max-width: 767px) {
     .ps-new-arrivals {
       padding: 5rem 0; }
@@ -7737,7 +7739,9 @@ textarea.form-control {
   padding-bottom: 0; }
   #homepage-9 .ps-new-arrivals .ps-section__content {
     padding-bottom: 6rem;
-    border-bottom: 1px solid #e5e5e5; }
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+     }
 
 #homepage-9 .ps-our-blogs .ps-carousel--nav {
   display: none; }
